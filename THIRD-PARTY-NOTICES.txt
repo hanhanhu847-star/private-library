@@ -1,0 +1,15 @@
+# 第三方组件与资料
+
+私藏时光·社区版原创部分采用随附的 [软件许可协议](LICENSE.txt)，版权署名 hanhanhu847。下列组件、数据及其改编部分继续遵守各自原许可证，不受软件本体的非商业和禁止修改分发条款限制。
+
+- **PDF.js**：Mozilla contributors，Apache-2.0。保留分发文件的版权头及完整许可，位于程序内部 `lib/vendor/pdfjs/LICENSE`，安装目录另附 `licenses/PDFJS-LICENSE.txt`。[上游源码](https://github.com/mozilla/pdf.js)。本发行未修改供应文件。
+- **Electron 44.2.0**：Electron contributors，MIT；Chromium、Node.js 和其他内含组件分别适用其原许可。安装目录保留 `LICENSE.electron.txt` 和完整的 `LICENSES.chromium.html`。[Electron](https://github.com/electron/electron)。本软件的版权字段只用于本产品，不替换上述第三方署名。
+- **NSIS / 7-Zip 解压组件**：由 electron-builder 提供，用于安装程序；遵循各自原许可。随发布包附 `licenses/NSIS-LICENSE.txt` 和 `licenses/7ZIP-LICENSE.txt`，同时保留原文所要求的来源与说明。
+- **electron-builder 26.0.12 及 npm 构建依赖**：仅用于构建，不作为应用运行依赖放入程序归档；各许可证保留在依赖包中。[上游](https://github.com/electron-userland/electron-builder)。
+- **ECDICT**：英汉词库，MIT。[skywind3000/ECDICT](https://github.com/skywind3000/ECDICT)。数据经过分桶与索引，对应数据包保留完整 `ECDICT-LICENSE.txt` 及上游版权声明，不更换署名或数据许可。
+- **EDRDG EDICT2**：日英词库，CC BY-SA 4.0。[EDRDG](https://www.edrdg.org/)。This data is the property of the Electronic Dictionary Research and Development Group, and is used in conformance with the Group’s licence. 数据经过重新格式化与索引，保留英文释义；数据及改编部分继续以 CC BY-SA 4.0 提供。对应数据包内附完整 `EDRDG-LICENSE.html`，发布包另附其副本；本软件许可不限制该数据的再利用。
+- **古籍结构化文本**：[gujilab/chinese-classical-corpus](https://github.com/gujilab/chinese-classical-corpus)，CC0。仅含古代原文，不含现代译文；对应数据包保留 `CLASSICS-LICENSE.txt`。重新整理的数据继续遵循 CC0。上游异文、缺字与校勘局限仍适用。
+
+数据包的完整原文许可另复制至发布包 `licenses/`，便于不安装程序时阅读。数据许可来源以原文为准，本说明不能替代许可证全文。
+
+哲学、历史、爵士等页面的来源链接不表示取得来源站点图片、音频或全文的再分发权。发布包不含商业录音、个人书库、个人照片、数据库、登录信息或签名私钥。
