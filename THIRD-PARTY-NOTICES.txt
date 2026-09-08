@@ -13,3 +13,5 @@
 数据包的完整原文许可另复制至发布包 `licenses/`，便于不安装程序时阅读。数据许可来源以原文为准，本说明不能替代许可证全文。
 
 哲学、历史、爵士等页面的来源链接不表示取得来源站点图片、音频或全文的再分发权。发布包不含商业录音、个人书库、个人照片、数据库、登录信息或签名私钥。
+
+完整第三方许可及所需第三方源码副本可下载 [第三方许可包](https://github.com/hanhanhu847-star/private-library/releases/download/v0.10.21-community.2/PrivateLibrary-ThirdPartyLicenses-0.10.21-community.2.zip)，解压后见 licenses/。
