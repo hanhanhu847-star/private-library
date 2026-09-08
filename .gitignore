@@ -1,0 +1,30 @@
+# This repository contains distribution documents only.
+# Upload approved installers as Release assets; never commit personal data or program source.
+*.exe
+*.msi
+*.zip
+*.7z
+*.pvfeature
+*.pvu
+*.db
+*.db-*
+*.sqlite*
+*.epub
+*.pdf
+*.mp3
+*.mp4
+.env*
+*.pem
+*.key
+*.pfx
+*.p12
+books/
+library/
+vault/
+userdata/
+data/
+backups/
+node_modules/
+src/
+lib/
+qa-output/
