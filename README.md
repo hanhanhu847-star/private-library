@@ -7,16 +7,16 @@ Windows x64 本地收藏应用，版本 **0.10.21-community.2**。免费供个�
 
 ## 下载与安装
 
-[打开版本下载页](https://github.com/hanhanhu847-star/private-library/releases)。安装包和可选功能包以 Releases 附件为准；当前附件正在准备上传。
+[打开本版本下载页](https://github.com/hanhanhu847-star/private-library/releases/tag/v0.10.21-community.2)。安装包、可选功能包和第三方许可包均在 Releases 附件中提供。
 
-运行 `私藏时光-社区基础版-0.10.21-community.2.exe`，阅读许可并选择安装位置。安装结束后，从桌面或开始菜单打开“私藏时光·社区版”。首次使用填写一个汉字或字母作为称呼。
+运行 `PrivateLibrary-Setup-0.10.21-community.2.exe`，阅读许可并选择安装位置。安装结束后，从桌面或开始菜单打开“私藏时光·社区版”。首次使用填写一个汉字或字母作为称呼。
 
 本版本**未做 Windows Authenticode 代码签名**。安装包及程序的公司和版权字段为 hanhanhu847；Windows SmartScreen 或 UAC 仍可能显示“未知发布者”，这些信息字段不是身份认证。请从作者公布的来源下载并比对 SHA-256；校验值相同仅表示文件与该校验值对应，不能代替可信来源或数字签名。
 
 在 PowerShell 中校验下载文件：
 
 ```powershell
-Get-FileHash -LiteralPath '.\私藏时光-社区基础版-0.10.21-community.2.exe' -Algorithm SHA256
+Get-FileHash -LiteralPath '.\PrivateLibrary-Setup-0.10.21-community.2.exe' -Algorithm SHA256
 ```
 
 将结果与同一发布页的 `SHA256SUMS.txt` 对照。文件哈希不一致时重新下载，不使用该副本。
@@ -33,7 +33,7 @@ Get-FileHash -LiteralPath '.\私藏时光-社区基础版-0.10.21-community.2.ex
 
 ## 可选功能包
 
-下载并解压 `私藏时光-可选功能包-0.10.21-community.2.zip`，在 **隐私与备份 → 按需添加功能 → 安装功能包** 中选择 `.pvfeature` 文件。安装或改变功能后保存内容并重新打开应用。停用或卸载功能保留收藏和学习进度。
+下载并解压 `PrivateLibrary-OptionalPacks-0.10.21-community.2.zip`，在 **隐私与备份 → 按需添加功能 → 安装功能包** 中选择 `.pvfeature` 文件。安装或改变功能后保存内容并重新打开应用。停用或卸载功能保留收藏和学习进度。
 
 | 功能包 | 内容与许可 |
 | --- | --- |
@@ -56,4 +56,4 @@ Get-FileHash -LiteralPath '.\私藏时光-社区基础版-0.10.21-community.2.ex
 
 复杂 Office 排版、额外编解码器、完整 VLC、AI 高清化及自动剪辑不是本次已验证能力。仅接受本发行内置目录中的已知功能包，不提供任意第三方插件商店。
 
-本版本为候选发行版。本仓库用于发布软件安装包和发行说明。具体变更见 [RELEASE-NOTES.md](RELEASE-NOTES.md)。本体不按 MIT 开源，本次发布不附本体源码压缩包；第三方部分的原许可证和既有合法授权继续有效。
+本版本以候选发行版发布。本仓库用于提供安装包和发行说明。具体变更见 [RELEASE-NOTES.md](RELEASE-NOTES.md)。本体不按 MIT 开源，本次发布不附本体源码压缩包；第三方部分的原许可证和既有合法授权继续有效。
